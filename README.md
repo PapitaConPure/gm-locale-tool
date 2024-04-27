@@ -13,7 +13,7 @@ By default, it expects a "locales" directory in the included files.
 Please note that the `.\\` here means that the path is relative to the `working_directory` (included files). Separate sub-directories with `\\`.
 
 ### Locale IDs and entry keys
-You define all of these in your CSVs!
+You define both of these in your CSV files!
 * Each translated string has an entry key (for translations with the same meaning) and a locale ID (for translations in the same locale).
 * The number of translated strings must be equal to "locale IDs" times "entry keys"
 * Each column is a locale. There must be a row that specifies the locale ID for each column ("es", "en", "it", "jp", etc)

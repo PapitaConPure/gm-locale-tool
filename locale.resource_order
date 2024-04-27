@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Translation","order":2,"path":"folders/Translation.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Object1","order":1,"path":"objects/Object1/Object1.yy",},
+    {"name":"tr_config","order":2,"path":"scripts/tr_config/tr_config.yy",},
+    {"name":"tr_utils","order":1,"path":"scripts/tr_utils/tr_utils.yy",},
+  ],
+}

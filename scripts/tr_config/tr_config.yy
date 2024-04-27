@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"tr_config",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tr_config",
+  "parent":{
+    "name":"Translation",
+    "path":"folders/Translation.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

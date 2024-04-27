@@ -24,6 +24,7 @@ You define both of these in your CSV files!
   * `TR_FIRST_ENTRY_ROW` defines the position of the first row with entries
 * The horizontal ordering of locales doesn't matter. The CSV parser takes care of that
 * The vertical ordering of entries doesn't matter. The CSV parser takes care of that
+* Locale IDs should be consistent across all your CSV files.
 
 ## Usage
 Imagine we have `"es"` and `"en"` locale IDs for Spanish and English respectively, and the following hierarchy:

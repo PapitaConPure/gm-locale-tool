@@ -47,9 +47,9 @@ tr_system_init("en");
 ```
 
 ### Configuration
-```
+```gml
 //Change the current locale to Spanish (as defined in our CSVs)
-tr_locale_set("es")
+tr_locale_set("es");
 ```
 
 ### Basics

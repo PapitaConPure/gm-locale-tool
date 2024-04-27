@@ -1,5 +1,5 @@
-# Locale Tool
-A simple internationalization tool. Supports directories and somewhat-flexible .csv parsing
+# GM Locale Tool
+A simple internationalization tool for GameMaker: Studio 2. Supports directories and somewhat-flexible .csv parsing
 
 ## Setup
 You can tweak some settings in the `tr_config.gml` script.

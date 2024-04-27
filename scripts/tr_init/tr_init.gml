@@ -10,7 +10,7 @@ function tr_system_init(locale) {
 	
 	show_debug_message("================================== LOCALE SYSTEM INIT ==================================");
 	__tr_provider_get();
-	__tr_locales_load_all(TR_LOCALE_FOLDER, locale);
+	__tr_locales_load_all(TR_LOCALE_DIRECTORY, locale);
 	show_debug_message("=================================== LOCALE SYSTEM UP ===================================");
 }
 
@@ -41,7 +41,7 @@ function __tr_locales_load_all(path, locale) {
 		path += "\\";
 	
 	if not directory_exists(path)
-		throw $"Couldn't find locales directory '{path}'. Check the TR_LOCALE_FOLDER config in locale_config.gml";
+		throw $"Couldn't find locales directory '{path}'. Check the TR_LOCALE_DIRECTORY config in locale_config.gml";
 	
 	show_debug_message($"Starting on: '{path}'");
 	

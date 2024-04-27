@@ -1,5 +1,5 @@
 //Root folder in which all translation files are stored. Must be part of the included files
-#macro TR_LOCALE_FOLDER ".\\locales"
+#macro TR_LOCALE_DIRECTORY ".\\locales"
 
 //0-indexed position for the column that contains all internationalization entry keys
 #macro TR_ENTRY_KEYS_COLUMN 0

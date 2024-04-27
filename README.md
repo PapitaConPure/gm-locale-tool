@@ -14,9 +14,16 @@ Please note that the `.\\` here means that the path is relative to the `working_
 
 ### Locale IDs and entry keys
 You define all of these in your CSVs!
+* Each translated string has an entry key (for translations with the same meaning) and a locale ID (for translations in the same locale).
+* The number of translated strings must be equal to "locale IDs" times "entry keys"
 * Each column is a locale. There must be a row that specifies the locale ID for each column ("es", "en", "it", "jp", etc)
-* The other rows are the individual entries or texts within your game. There must be a column that specifies the entry key for each row ("play", "configs", "help", "jump", "dialog1", etc)
-* The order of both the locale IDs and the entry keys doesn't matter. The CSV parser handles all that for you.
+  * `TR_LOCALE_IDS_ROW` defines said row's position
+  * `TR_FIRST_LOCALE_COLUMN` defines the position of the first column with locales
+* Each row is an entry, meaning, or concept. There must be a column that specifies the entry key for each row ("play", "configs", "help", "jump", "dialog1", etc)
+  * `TR_ENTRY_KEYS_COLUMN` defines said column's position
+  * `TR_FIRST_ENTRY_ROW` defines the position of the first row with entries
+* The horizontal ordering of locales doesn't matter. The CSV parser takes care of that
+* The vertical ordering of entries doesn't matter. The CSV parser takes care of that
 
 ## Usage
 Imagine we have `"es"` and `"en"` locale IDs for Spanish and English respectively, and the following hierarchy:

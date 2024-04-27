@@ -17,8 +17,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"locale",
-    "path":"locale.yyp",
+    "name":"Demo",
+    "path":"folders/Demo.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

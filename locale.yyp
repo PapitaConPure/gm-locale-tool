@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Demo","folderPath":"folders/Demo.yy","name":"Demo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Translation","folderPath":"folders/Translation.yy","name":"Translation","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[

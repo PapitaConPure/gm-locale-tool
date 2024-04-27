@@ -9,8 +9,8 @@
   "name":"Object1",
   "overriddenProperties":[],
   "parent":{
-    "name":"locale",
-    "path":"locale.yyp",
+    "name":"Demo",
+    "path":"folders/Demo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
